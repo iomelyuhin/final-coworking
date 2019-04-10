@@ -44,6 +44,7 @@
 
 .form__text-input:focus {
   outline: 1px solid #ec1e79;
+  border-radius: 3px;
 }
 
 .form__text-input::placeholder {
@@ -87,6 +88,44 @@
   justify-content: space-between;
 }
 
+.form__addfoto-check {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.form__addfoto-button {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.form__radiofake {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  display: block;
+  border: solid 1px #c9c9c9;
+  background-image: linear-gradient(to top, #ededed, #ffffff);
+  margin-right: 5px;
+}
+
+.form__addfoto-button:checked + .form__radiofake::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ec1e79;
+}
+
+
+.form__addfoto-button:checked + .form__radiofake {
+  border: solid 1px #ec1e79;
+}
 .form__button {
   padding: 18px 21px;
   border-radius: 3px;
