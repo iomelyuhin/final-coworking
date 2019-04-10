@@ -14,7 +14,7 @@
   font-family: gotham-l;
   font-size: 14px;
   color: #221f1f;
-  outline-color: #ec1e79;
+  
 }
 
 .form__form-in {
@@ -39,6 +39,11 @@
   border-radius: 3px;
   border: none;
   padding: 16px 10px;
+  outline: none;
+}
+
+.form__text-input:focus {
+  outline: 1px solid #ec1e79;
 }
 
 .form__text-input::placeholder {
@@ -61,6 +66,10 @@
   border-radius: 3px;
   border: none;
   resize: none;
+  outline: none;
+}
+.form__textarea:focus {
+  outline: 1px solid #ec1e79;
 }
 .yourtext__textarea::placeholder {
   color: rgba(34, 31, 31, 0.5);
