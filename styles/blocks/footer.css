@@ -1,0 +1,23 @@
+.footer {
+  margin-top: 74px;
+  background-color: #27273e;
+}
+.footer .container {
+  height: 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-copy {
+  width: 33.3%;
+  font-family: gotham-l;
+  font-size: 14px;
+  color: #fff;
+  line-height: normal;
+}
+.footer-copy__link {
+  font-family: gotham-b;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}

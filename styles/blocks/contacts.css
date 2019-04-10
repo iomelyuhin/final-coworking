@@ -1,0 +1,24 @@
+.contacts {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  font-style: normal;
+}
+
+.contacts__phone {
+  font-family: 'gotham-b';
+  color: #fff;
+  font-size: 21px;
+  text-decoration: none;
+
+}
+
+.contacts__chart {
+  font-family: 'open-b';
+  color: rgba(236, 30, 121, .7);
+  text-decoration: underline;
+  font-size: 14px;
+}
+.contacts__chart:hover {
+  color: #5dd1f8;
+}

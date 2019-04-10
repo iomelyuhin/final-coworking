@@ -1,0 +1,35 @@
+.breadcrumps {
+  margin-top: 0;
+  width: 100%;
+  font-family: gotham-r;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.breadcrumps__list {
+  display: flex;
+}
+
+.breadcrumps__item {
+  margin-right: 5px;
+}
+
+.breadcrumps__item:after {
+  display: inline-block;
+  content: "/";
+}
+
+.breadcrumps__item:last-child:after {
+  display: none;
+}
+
+.breadcrumps__link {
+  text-decoration: none;
+  color: rgba(236, 30, 121, 0.8);
+}
+
+.breadcrumps__link--active{
+  text-decoration: none;
+  color: rgba(34, 31, 31, 0.8);
+
+}

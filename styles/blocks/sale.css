@@ -1,0 +1,26 @@
+.sale {
+  margin-top: 50px;
+  background: #27273e;
+}
+
+.container--sale {
+  background: url('../../images/bg-sale.png') center center no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sale__cont {
+  margin: 40px 0;
+  width: 60%;
+  font-family: gotham-l;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  text-align:justify;
+}
+
+.sale__cont span {
+  font-family: gotham-b;
+  color: #ec1e79;
+}

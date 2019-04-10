@@ -1,0 +1,18 @@
+.container--banner {
+  max-width: 1100px;
+}
+
+.banner {
+  background-color: #27273e;
+  margin-top: -7px;
+}
+
+.banner__img {
+  max-width: 1100px;
+
+}
+
+.banner__img {
+  display: block;
+}
+

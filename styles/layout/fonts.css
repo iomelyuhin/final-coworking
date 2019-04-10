@@ -1,0 +1,37 @@
+/* Шрифты */
+@font-face {
+	font-family: 'gotham-r';
+	src: url('../../fonts/GothamPro.eot') format('eot'), 
+	     url('../../fonts/GothamPro.woff') format('woff'), 
+	     url('../../fonts/GothamPro.ttf')  format('truetype');
+	}
+@font-face {
+	font-family: 'gotham-l';
+	src: url('../../fonts/GothamPro-Light.eot') format('eot'), 
+	     url('../../fonts/GothamPro-Light.woff') format('woff'), 
+	     url('../../fonts/GothamPro-Light.ttf')  format('truetype');
+	}
+@font-face {
+	font-family: 'gotham-b';
+	src: url('../../fonts/GothamPro-Bold.eot') format('eot'), 
+	     url('../../fonts/GothamPro-Bold.woff') format('woff'), 
+	     url('../../fonts/GothamPro-Bold.ttf')  format('truetype');
+	}
+@font-face {
+	font-family: 'open-b';
+	src: url('../../fonts/OpenSans-Bold.eot') format('eot'), 
+	     url('../../fonts/OpenSans-Bold.woff') format('woff'), 
+	     url('../../fonts/OpenSans-Bold.ttf')  format('truetype');
+	}
+@font-face {
+	font-family: 'roboto-l';
+	src: url('../../fonts/Roboto-Light.eot') format('eot'), 
+	     url('../../fonts/Roboto-Light.woff') format('woff'), 
+	     url('../../fonts/Roboto-Light.ttf')  format('truetype');
+	}
+@font-face {
+	font-family: 'roboto-b';
+	src: url('../../fonts/Roboto-Bold.eot') format('eot'), 
+	     url('../../fonts/Roboto-Bold.woff') format('woff'), 
+	     url('../../fonts/Roboto-Bold.ttf')  format('truetype');
+	}

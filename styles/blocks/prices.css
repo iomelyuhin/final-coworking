@@ -1,0 +1,63 @@
+.prices {
+  margin-top: 7px;
+}
+
+.tarif__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tarif__item {
+  margin-top: 37px;
+  width: 250px;
+}
+.tarif__tittle-img {
+  height: 153px;
+  overflow: hidden;
+  border-radius: 3px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tarif__name {
+  position: absolute;
+  font-family: gotham-b;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #5dd1f8;
+  text-align: center;
+}
+
+.tarif__name span {
+  color: #ec1e79;
+}
+
+.tarif__img-overflow {
+  position: absolute;
+  background: rgba(39,39,62,.85);
+  height: 100%;
+  width: 100%;
+}
+
+.tarif__desc {
+  margin-top: 23px;
+  text-align: center;
+}
+
+.tarif__tittle {
+  font-family: gotham-b;
+  font-size: 18px;
+  line-height: 21px;
+  color: #221f1f;
+}
+
+.tarif__text {
+  margin-top: 10px;
+  font-family: gotham-l;
+  line-height: 21px;
+  font-size: 14px;
+  color: #221f1f;
+}
