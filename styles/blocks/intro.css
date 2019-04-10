@@ -1,0 +1,32 @@
+.background {
+  background: url('../../images/bg-intro.jpg') center center no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.put-in {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.put-in__sing {
+  margin-top: 29px;
+}
+
+.put-in__button {
+  border: solid 3px #ec1e79;
+  padding: 17px 22px;
+  font-family: gotham-b;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #ec1e79;
+}
+
+.put-in__button:hover {
+  background-color: #ec1e79;
+  color: #fff;
+}

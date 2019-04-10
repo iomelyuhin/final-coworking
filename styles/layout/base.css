@@ -49,6 +49,12 @@ table {
   flex-direction: column;
 }
 
+.wrapper-intro {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
 .container {
   max-width: 1160px;
   margin: 0 auto;
