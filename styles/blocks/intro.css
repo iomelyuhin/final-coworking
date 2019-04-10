@@ -29,4 +29,5 @@
 .put-in__button:hover {
   background-color: #ec1e79;
   color: #fff;
+  transition: color 0.3s, background-color 0.3s;
 }
