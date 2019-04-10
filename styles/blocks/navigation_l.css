@@ -1,0 +1,75 @@
+.navigation-l {
+  width: 60%;
+}
+.navigation-l__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navigation-l__item {
+  margin-right: 20%;
+  padding-bottom: 3%;
+}
+.navigation-l .navigation-l__item {
+  padding-bottom: 0;
+}
+.navigation-l__item:first-child {
+  margin-top: 0;
+}
+.navigation-l__item--active .navigation-l__link{
+  color: #000;
+}
+.navigation-l__item--active .navigation-l__link--main:before {
+  background: url(../../images/main_icon_hover_l.png) center center no-repeat;
+}
+.navigation-l__item--active .navigation-l__link--feedback:before {
+  background: url(../../images/feed_icon_hover_l.png) center center no-repeat;
+}
+.navigation-l__item--active .navigation-l__link--price:before {
+  background: url(../../images/wallet_icon_hover_l.png) center center no-repeat;
+}
+.navigation-l__link {
+  display: flex;
+  color: #ec1e79;
+  font-family: gotham-b;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+}
+.navigation-l__link:hover {
+  color: #000;
+}
+.navigation-l__link--main:before {
+  margin-right: 17px;
+  vertical-align: middle;
+  width: 20px;
+  height: 18px;
+  content: "";
+  background: url(../../images/main_icon_hover.png) center center no-repeat;
+}
+.navigation-l__link--main:hover:before {
+  background: url(../../images/main_icon_hover_l.png) center center no-repeat;
+}
+.navigation-l__link--feedback:before {
+  margin-right: 17px;
+  vertical-align: middle;
+  width: 20px;
+  height: 18px;
+  content: "";
+  background: url(../../images/feed_icon_hover.png) center center no-repeat;
+}
+.navigation-l__link--feedback:hover:before {
+  background: url(../../images/feed_icon_hover_l.png) center center no-repeat;
+}
+.navigation-l__link--price:before {
+  margin-right: 17px;
+  vertical-align: middle;
+  width: 20px;
+  height: 18px;
+  content: "";
+  background: url(../../images/wallet_icon_hover.png) center center no-repeat;
+}
+.navigation-l__link--price:hover:before {
+  background: url(../../images/wallet_icon_hover_l.png) center center no-repeat;
+}

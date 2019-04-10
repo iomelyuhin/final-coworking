@@ -1,26 +1,38 @@
 .newsfeeds.newsfeeds--news   {
-  margin-top: 66px;
+  margin-top: -18px;
+  margin-left: 5px;
 }
 .newsfeeds {
   margin-top: 6px;
+}
+.newsfeeds.fb {
+  margin-top: 12px;
+  margin-left: 3px;
 }
 .newsfeeds-section {
   display: flex;
   flex-flow: column;
   margin-top: 39px;
 }
+.newsfeeds-section.fb {
+  margin-top: 10px;
+}
 .newsfeeds-section__item {
   display: flex;
   border-bottom: 2px solid #f5f5f5;
-  margin-top: 22px;
+  margin-top: 24px;
   padding-bottom: 25px;
 }
 .newsfeeds-section__img {
-  width: 160px;
-  height: 160px;
+  width: 173.5px;
+  height: 173.5px;
   border-radius: 50%;
   overflow: hidden;
   flex-shrink: 0;
+}
+.newsfeeds-section__img.newsfeeds--feeds {
+  width: 160px;
+  height: 160px;
 }
 .newsfeeds-section__img-cont {
   background-color: #f5f5f5;

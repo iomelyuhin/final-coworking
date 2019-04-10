@@ -1,17 +1,21 @@
-.navigation-list {
+.navigation {
+  width: 41%;
+}
+.navigation__list {
   display: flex;
-  flex-flow: column;
-  align-items: left;
-  margin-top: 26px;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .navigation__item {
-  margin-top: 31px;
+  margin-right: 20%;
+  padding-bottom: 3%;
 }
 .navigation__item:first-child {
   margin-top: 0;
 }
 .navigation__item--active .navigation__link{
-  color: #000;
+  color: #ec1e79;
+  text-decoration: underline;
 }
 .navigation__item--active .navigation__link--main:before {
   background: url(../../images/main_icon_hover.png) center center no-repeat;
@@ -24,7 +28,7 @@
 }
 .navigation__link {
   display: flex;
-  color: #ec1e79;
+  color: #fff;
   font-family: gotham-b;
   font-size: 12px;
   text-transform: uppercase;
@@ -32,7 +36,7 @@
   letter-spacing: 1.2px;
 }
 .navigation__link:hover {
-  color: #000;
+  color: #ec1e79;
 }
 .navigation__link--main:before {
   margin-right: 17px;

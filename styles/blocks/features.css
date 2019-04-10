@@ -8,16 +8,14 @@
 
 .features__item {
   text-align: center;
-  width: 26.8%;
+  border: 1px #e8e9ed solid;
+  padding: 22px 22px;
+  margin-right: 20px;
 }
 .features__item-icon {
-  display: inline-block;
-  position: relative;
-  height: 66px;
-  width: 66px;
-  border-radius: 50%;
-  overflow: hidden;
-  background-color: #27273e;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: gotham-b;
 }
 .features__item-img {
   width: 66px;
@@ -52,6 +50,7 @@
   margin-bottom: 0;
 }
 .features__item-list {
+  margin-left: 36px;
   text-align: left;
 }
 .features__item-list__item {

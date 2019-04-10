@@ -1,23 +1,32 @@
 .partner {
-  margin-top: 37px;
+  margin-top: 25px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
+.tittle.parts{
+ font-family: gotham-b;
+ font-size: 18px;
+ color: #221f1f; 
+ text-transform: uppercase;
+}
 .part-icons__list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   width: 90%;
 }
 
 .part-icons__item {
   width: 160px;
-  text-align: center;
-  margin: 32px 60px 15px 0;
+  margin-top: 40px;
 }
 
 .part-icons__logo {
+  max-width: 141px;
+  max-height: 55px;
   filter:grayscale(100%);
 }
 

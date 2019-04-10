@@ -1,16 +1,16 @@
-.container--banner {
-  max-width: 1100px;
-}
-
 .banner {
   background-color: #27273e;
-  margin-top: -7px;
+  margin-top: -5px;
 }
+.container--banner {
+  max-width: 1200px;
+}
+
 
 .banner__img {
-  max-width: 1100px;
+  max-width: 1200px;
 
-}
+} 
 
 .banner__img {
   display: block;

@@ -1,7 +1,8 @@
 .pagination {
   display: flex;
-  justify-content: center;
-  margin-top: 40px;
+  margin-left: 23%;
+  justify-content: left;
+  margin-top: 20px;
   text-align: center;
 }
 .pagination__nav  {
@@ -42,6 +43,7 @@
   font-size: 14px;
   color: #221f1f;
   text-decoration: none;
+  margin-left: 4px;
 }
 .pagination__nav-list__item-link:hover {
   color: #ec1e79;

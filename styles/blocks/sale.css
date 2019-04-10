@@ -1,5 +1,6 @@
 .sale {
-  margin-top: 50px;
+  margin-top: 5px;
+  margin-right: 16px;
   background: #27273e;
 }
 
@@ -11,13 +12,13 @@
 }
 
 .sale__cont {
-  margin: 40px 0;
-  width: 60%;
+  margin: 23px 0;
+  width: 95%;
+  text-align: center;
   font-family: gotham-l;
   font-size: 18px;
   line-height: 30px;
   color: #fff;
-  text-align:justify;
 }
 
 .sale__cont span {

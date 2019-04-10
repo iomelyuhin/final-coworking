@@ -7,6 +7,7 @@
 @import url('./blocks/contacts.css');
 @import url('./blocks/banner.css');
 @import url('./blocks/navigation.css');
+@import url('./blocks/navigation_l.css');
 @import url('./blocks/features.css');
 @import url('./blocks/newsfeeds.css');
 @import url('./blocks/pagination.css');
