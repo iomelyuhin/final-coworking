@@ -26,7 +26,7 @@
   }
   
   60% {
-    transform: rotate(5deg) scale(1);
+    transform: rotate(5deg) /* scale(1) */;
     
   }
   70% {
@@ -39,7 +39,6 @@
 
   100% {
     transform: rotate(0deg);
-
   }
 }
 
