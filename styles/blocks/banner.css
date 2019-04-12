@@ -1,6 +1,5 @@
 .banner {
   background-color: #27273e;
-  margin-top: -5px;
 }
 .container--banner {
   max-width: 1200px;
@@ -8,11 +7,7 @@
 
 
 .banner__img {
-  max-width: 1200px;
-
+  display: block;
 } 
 
-.banner__img {
-  display: block;
-}
 
