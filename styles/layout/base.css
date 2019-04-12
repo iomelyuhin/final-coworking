@@ -68,6 +68,7 @@ table {
   margin-top: 29px;
   display: flex;
   flex-flow: row;
+  justify-content: space-between;
 }
 
 .container--maincontent.fb {
@@ -80,7 +81,7 @@ table {
 }
 
 .sidebar {
-  width: 25%;
+  width: 23.5%;
 }
 
 .content {

@@ -37,6 +37,7 @@
   color: #221f1f;
   margin-right: 13px;
   text-decoration: none;
+  transition: color .4s;
 }
 .pagination__nav-list__item {
   font-family: roboto-b;
@@ -47,6 +48,7 @@
 }
 .pagination__nav-list__item-link:hover {
   color: #ec1e79;
+  transition: color .4s;
 }
 .pagination__nav-list__item-link--active {
   padding: 4px 10px;

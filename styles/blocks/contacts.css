@@ -13,12 +13,76 @@
 
 }
 
-.contacts__chart {
+.contacts__chart-link {
   font-family: 'open-b';
   color: rgba(236, 30, 121, .7);
   text-decoration: underline;
   font-size: 14px;
+  transition: color .4s;
 }
-.contacts__chart:hover {
+
+
+.contacts__chart:hover .contacts__chart-link  {
   color: #5dd1f8;
+  transition: color .4s;
+}
+
+.contacts__chart {
+  position: relative;
+  display: inline-flex;
+}
+
+.chart__menu {
+  position: absolute;
+  top: 30px;
+  width: 163px;
+  background-color: #fff;
+  border-radius: 3px;
+  right: -9999px;
+  opacity: 0;
+  box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.chart__menu::before{
+  content: "";
+  display: block;
+  height: 20px;
+  left: 0;
+  right: 0;
+  top: -19px;
+  position: absolute;
+}
+
+.chart__menu-trang {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  right: 0;
+  border: 10px solid transparent;
+  border-bottom-color: #fff;
+  border-top-width: 0px;
+  top: -8px;
+}
+
+.contacts__chart:hover .chart__menu {
+  right: 0;
+  opacity: 1;
+  transition: opacity .4s;
+}
+
+.chart__list {
+  padding: 18px 10px;
+  font-family: gotham-r;
+  font-size: 14px;
+}
+
+
+
+.chart__item:first-child {
+  font-family: gotham-b;
+  color: #ec1e79;
+}
+
+.contacts__chart:before:hover{
+
 }
