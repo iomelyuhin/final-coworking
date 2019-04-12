@@ -46,6 +46,7 @@
 .form__text-input:focus {
   border-color: #ec1e79;
   border-radius: 3px;
+  transition: border-color .4s;
 }
 
 .form__text-input::placeholder {
@@ -73,6 +74,7 @@
 }
 .form__textarea:focus {
   border-color: #ec1e79;
+  transition: border-color .4s;
 }
 .yourtext__textarea::placeholder {
   color: rgba(34, 31, 31, 0.5);
